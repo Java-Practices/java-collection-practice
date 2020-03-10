@@ -7,35 +7,33 @@ import java.util.stream.Stream;
 public class CollectionOperation {
     
     public static List<Integer> getListByInterval(int left, int right) {
-        // Need to be implemented
-        return null;
+        return IntStream.iterate(left, i -> left < right ? ++i : --i).limit(Math.abs(left - right) + 1).boxed().collect(Collectors.toList());
     }
     
     
     public static List<Integer> removeLastElement(List<Integer> list) {
-        // Need to be implemented
-        return null;
+        return list.stream().limit(list.size() - 1).collect(Collectors.toList());
     }
     
     public static List<Integer> sortDesc(List<Integer> list) {
-        // Need to be implemented
-        return null;
+        return list.stream().sorted((a, b) -> b - a).collect(Collectors.toList());
     }
     
     
     public static List<Integer> reverseList(List<Integer> list) {
-        // Need to be implemented
-        return null;
+        Collections.reverse(list);
+        return list;
     }
     
     
     public static List<Integer> concat(List<Integer> list1, List<Integer> list2) {
-        // Need to be implemented
-        return null;
+        return Stream.concat(list1.stream(), list2.stream()).collect(Collectors.toList());
     }
     
     public static List<Integer> union(List<Integer> list1, List<Integer> list2) {
-        // Need to be implemented
-        return null;
+        // method 1:
+        return Stream.concat(list1.stream(), list2.stream()).distinct().collect(Collectors.toList());
+        // method 2:
+        // return Stream.concat(list1.stream(), list2.stream()).collect(Collectors.toSet()).stream().collect(Collectors.toList());
     }
 }
