@@ -73,5 +73,5 @@ App.java -> run main method
 * src/main/java/game/Game.java
 
 #### 2.如果自己还不具备完成该程序的知识，哪里可以学习？
-由于学员水平不一，如果您觉得自己能够完成所有的功能，那就最好了，直接开干就行了！如果您发现自己有些代码看不明白或者是某个知识点不清楚，您可以以[requirement.md](https://gitlab.com/tw-baseline-exam/guess-number/-/blob/master/requirement.md)列举的知识点和材料进行学习，加油哦！
+由于学员水平不一，如果您觉得自己能够完成所有的功能，那就最好了，直接开干就行了！如果您发现自己有些代码看不明白或者是某个知识点不清楚，您可以以[requirement.md](https://gitlab.com/tw-baseline-exam/java-collection-practice/-/blob/master/requirement.md)列举的知识点和材料进行学习，加油哦！
 
