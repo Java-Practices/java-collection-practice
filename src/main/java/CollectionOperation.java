@@ -38,7 +38,6 @@ public class CollectionOperation {
     }
     
     public static boolean isAllElementsEqual(List<Integer> list1, List<Integer> list2) {
-        // Need to be implemented
-        return false;
+        return list1.stream().allMatch(item -> list2.contains(item)) && list2.stream().allMatch(item -> list1.contains(item));
     }
 }
