@@ -58,4 +58,15 @@ class CollectionOperationTest {
         List<Integer> output = CollectionOperation.union(input1, input2);
         Assertions.assertEquals(Arrays.asList(1, 2, 3, 4, 5, 9, 10), output);
     }
+    
+    @Test
+    void can_judge_two_lists_whether_is_equal() {
+        List<Integer> input1 = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> input2 = Arrays.asList(5, 4, 3, 2, 1);
+        List<Integer> input3 = Arrays.asList(5, 4, 2, 2, 1);
+        boolean output = CollectionOperation.isAllElementsEqual(input1, input2);
+        boolean output2 = CollectionOperation.isAllElementsEqual(input1, input3);
+        Assertions.assertTrue(output);
+        Assertions.assertFalse(output);
+    }
 }

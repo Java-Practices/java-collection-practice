@@ -36,4 +36,9 @@ public class CollectionOperation {
         // method 2:
         // return Stream.concat(list1.stream(), list2.stream()).collect(Collectors.toSet()).stream().collect(Collectors.toList());
     }
+    
+    public static boolean isAllElementsEqual(List<Integer> list1, List<Integer> list2) {
+        // Need to be implemented
+        return false;
+    }
 }
