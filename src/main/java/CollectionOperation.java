@@ -38,4 +38,9 @@ public class CollectionOperation {
         // Need to be implemented
         return null;
     }
+    
+    public static boolean isAllElementsEqual(List<Integer> list1, List<Integer> list2) {
+        // Need to be implemented
+        return false;
+    }
 }
