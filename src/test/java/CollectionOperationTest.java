@@ -67,6 +67,6 @@ class CollectionOperationTest {
         boolean output = CollectionOperation.isAllElementsEqual(input1, input2);
         boolean output2 = CollectionOperation.isAllElementsEqual(input1, input3);
         Assertions.assertTrue(output);
-        Assertions.assertFalse(output);
+        Assertions.assertFalse(output2);
     }
 }
