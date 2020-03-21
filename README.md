@@ -66,12 +66,6 @@ App.java -> run main method
 ```
 
 ## 其他说明：
-#### 1. 完成该程序的顺序是什么？从哪里下手？
-以我个人的经验，我推荐您以下面的顺序逐个完成(主要完成加了注释Need to be implement的部分)，完成一个文件后，运行该文件的测试，使得测试逐个通过：
-* src/main/java/answer/Answer.java
-* src/main/java/game/GuessResult.java
-* src/main/java/game/Game.java
-
-#### 2.如果自己还不具备完成该程序的知识，哪里可以学习？
+#### 1.如果自己还不具备完成该程序的知识，哪里可以学习？
 由于学员水平不一，如果您觉得自己能够完成所有的功能，那就最好了，直接开干就行了！如果您发现自己有些代码看不明白或者是某个知识点不清楚，您可以以[requirement.md](https://gitlab.com/tw-baseline-exam/java-collection-practice/-/blob/master/requirement.md)列举的知识点和材料进行学习，加油哦！
 
