@@ -20,13 +20,13 @@
 
 * **master:** 该分支为未实现分支，主要包括了所有测试和部分已实现的脚手架代码，您需要基于此分支进行开发。
 
-* **answer:** 该分支已经实现了该游戏，源代码全部包含在src/mian文件夹中，如果您在master分支上面实现功能时遇到了困难，您可以切换到该分支上面进行参考。
+* **answer:** 该分支已经实现了项目所有需求，源代码全部包含在src/mian文件夹中，如果您在master分支上面实现功能时遇到了困难，您可以切换到该分支上面进行参考。
 
 ## 你该怎么做？
 
 #### 1. 将本项目clone到您的本地：
 ```bash
-git clone https://gitlab.com/tw-baseline-exam/guess-number.git
+git clone https://gitlab.com/tw-baseline-exam/java-collection-practice.git
 ```
 #### 2. 安装JDK8，并配置Java开发环境：
 ```bash
@@ -60,7 +60,7 @@ App.java -> run main method
 ```bash
 ./gradlew test
 ```
-#### 4. 用gradle运行该游戏：
+#### 4. 用gradle运行该项目：
 ```bash
 ./gradlew run
 ```
