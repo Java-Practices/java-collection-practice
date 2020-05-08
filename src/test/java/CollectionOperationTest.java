@@ -64,7 +64,7 @@ class CollectionOperationTest {
         List<Integer> input1 = Arrays.asList(1, 2, 3, 4, 5);
         List<Integer> input2 = Arrays.asList(5, 4, 3, 2, 1);
         List<Integer> input3 = Arrays.asList(5, 4, 2, 2, 1);
-        List<Integer> input4 = Arrays.asList(5, 2, 2, 2, 1);
+        List<Integer> input4 = Arrays.asList(5, 4, 2, 1, 1);
         boolean output = CollectionOperation.isAllElementsEqual(input1, input2);
         boolean output2 = CollectionOperation.isAllElementsEqual(input1, input3);
         boolean output3 = CollectionOperation.isAllElementsEqual(input3, input4);
